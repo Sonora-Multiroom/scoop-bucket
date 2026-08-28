@@ -1,19 +1,19 @@
 {
-    "version": "0.0.9",
+    "version": "0.0.10",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.9/sonora-cli_0.0.9_windows_amd64.zip",
+            "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.10/sonora-cli_0.0.10_windows_amd64.zip",
             "bin": [
                 "sonora.exe"
             ],
-            "hash": "477a4e62be808405a80b45435e2d4ef274c0ec8f3d7a37c6d334d0f82f999483"
+            "hash": "0499210e1bc37d7255e347cdda2eb452ee3984035c1b78c433d7ca1b6a2f3194"
         },
         "arm64": {
-            "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.9/sonora-cli_0.0.9_windows_arm64.zip",
+            "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.10/sonora-cli_0.0.10_windows_arm64.zip",
             "bin": [
                 "sonora.exe"
             ],
-            "hash": "fc6b8644308c84d3ce1e654afa62787e53e44b71fdd4b5ae8b421730a9ccfb6f"
+            "hash": "d2016813dfe416eba4969632c3de6c14753a57ad2d912290802d0ab00ffd2168"
         }
     },
     "homepage": "https://github.com/Sonora-Multiroom/sonora-cli",
