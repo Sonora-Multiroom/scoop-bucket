@@ -1,22 +1,30 @@
 {
-    "version": "0.0.12",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.12/sonora-cli_0.0.12_windows_amd64.zip",
-            "bin": [
-                "sonora.exe"
-            ],
-            "hash": "37141d184e1177464aabd268877ad7ebe51363c6c7a6aa0d446562ec96c59ff9"
-        },
-        "arm64": {
-            "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.12/sonora-cli_0.0.12_windows_arm64.zip",
-            "bin": [
-                "sonora.exe"
-            ],
-            "hash": "a5b5cc8e00ca9149fff57597aac320fa429c4cc7960fecec83a36497d74fc867"
-        }
+  "version": "0.0.12",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.12/sonora-cli_0.0.12_windows_amd64.zip",
+      "bin": [
+        "sonora.exe",
+        [
+          "sonora.exe",
+          "multiroom"
+        ]
+      ],
+      "hash": "37141d184e1177464aabd268877ad7ebe51363c6c7a6aa0d446562ec96c59ff9"
     },
-    "homepage": "https://github.com/Sonora-Multiroom/sonora-cli",
-    "license": "AGPL-3.0",
-    "description": "Sonora CLI"
+    "arm64": {
+      "url": "https://github.com/Sonora-Multiroom/sonora-cli/releases/download/v0.0.12/sonora-cli_0.0.12_windows_arm64.zip",
+      "bin": [
+        "sonora.exe",
+        [
+          "sonora.exe",
+          "multiroom"
+        ]
+      ],
+      "hash": "a5b5cc8e00ca9149fff57597aac320fa429c4cc7960fecec83a36497d74fc867"
+    }
+  },
+  "homepage": "https://github.com/Sonora-Multiroom/sonora-cli",
+  "license": "AGPL-3.0",
+  "description": "Sonora CLI"
 }
